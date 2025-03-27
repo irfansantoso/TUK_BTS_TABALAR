@@ -78,14 +78,9 @@ class UserController extends Controller
 
             $dataLogg = \Helper::dataLogg('002');
             $dataLogg2 = \Helper::dataLogg2('601');
-            $dataLogg3 = \Helper::dataLogg2('710');
-            $dataLogg4 = \Helper::dataLogg2('711');
-            $dataLogg5 = \Helper::dataLogg2('720');
-            $dataLogg6 = \Helper::dataLogg2('730');
-            $dataLogg7 = \Helper::dataLogg2('731');
-            $dataLogg8 = \Helper::dataLogg2('740');
+            $dataLogg3 = \Helper::dataLogg2('730');
             $data['title'] = 'Home';
-            return view('home', $data, compact('dataLogg','dataLogg2','dataLogg3','dataLogg4','dataLogg5','dataLogg6','dataLogg7','dataLogg8'));
+            return view('home', $data, compact('dataLogg','dataLogg2','dataLogg3'));
         }else{
             return redirect('login');
         }

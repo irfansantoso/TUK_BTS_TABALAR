@@ -42,7 +42,7 @@
                 <div class="icon">
                   <i class="ion ion-stats-bars"></i>
                 </div>
-                <a href="#" data-toggle="modal" data-target="#barChartModal3" data-lok="710" class="small-box-footer">LOGPOND</a>
+                <a href="#" data-toggle="modal" data-target="#barChartModal3" data-lok="730" class="small-box-footer">LOGPOND</a>
               </div>
             </div>
                         

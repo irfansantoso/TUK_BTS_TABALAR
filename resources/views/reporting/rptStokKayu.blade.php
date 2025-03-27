@@ -49,7 +49,7 @@
 <div class="card">
   <!-- /.card-header -->      
   <div class="card-body" style="height:500px;overflow:auto;">
-    <h2>PT. BTJ</h2>
+    <h2>PT. BTS</h2>
     <h6>Stock Log Per Tgl : {{ session('tgl_laporan') }}</h6>
     <table id="mim" class="table table-bordered">
       <thead>
@@ -876,7 +876,7 @@
   <!-- /.card-body -->
 
   <div class="card-body" style="height:500px;overflow:auto;">
-    <h2>PT. BTJ</h2>
+    <h2>PT. BTS</h2>
     <h6>Stock Log Per Tgl : {{ session('tgl_laporan') }}</h6>
     <table id="mim2" class="table table-bordered">
       <thead>
